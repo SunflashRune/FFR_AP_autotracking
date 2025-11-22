@@ -19,7 +19,7 @@ CUR_INDEX = -1
 
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
---ScriptHost:LoadScript("scripts/mapValues.lua")
+--ScriptHost:LoadScript("scripts/mapValues.lua")		//  for possible future auto-swappable map tabbing
 
 function onClear()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING then
@@ -153,7 +153,7 @@ end
 
 --this is stuff to update the tabs using the AT, but will need to wait til AP/worlds/ff1 has some updates
 
---[[function onNotify(key, value, old_value)
+function onNotify(key, value, old_value)
 	updateEvents(value)
 end
 
@@ -161,12 +161,14 @@ function onNotifyLaunch(key, value)
 	updateEvents(value)
 end
 
+--[[  for possible future auto-swappable map tabbing
+
 function updateEvents(value)
     if value ~= nil then
 	    print(string.format("updateEvents %x",value))
 		--local tabswitch = Tracker:FindObjectForCode("tab_switch")
         --Tracker:FindObjectForCode("cur_level_id").CurrentStage = value
-		--if tabswitch.Active then
+		if tabswitch.Active then
 			local mapValue = MAP_VALUE and MAP_VALUE[value]
             if mapValue then
                 -- Split by '/' and process each map name/tab
@@ -184,12 +186,14 @@ function updateEvents(value)
                     print("Overworld or unknown map value: ", value)
                 end
             end
-		--end
+		end
 	end
-end]]
+end
+
+]]--
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
---Archipelago:AddSetReplyHandler("notify handler", onNotify)
---Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

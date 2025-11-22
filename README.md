@@ -7,8 +7,9 @@ This is a pack for black-silver's Poptracker (https://github.com/black-sliver/Po
 Pretty simple to use, not 100% as fully functional as the EmoTracker pack, but works for Archipelago.
 
 Known Issues:
-- Map Logic is borked still. 
-  - Specifically, the northern continents show as available, even when they're not.
+  - <del> Map Logic is borked still. </del>
+  - <del> Specifically, the northern continents show as available, even when they're not. </del>
+  - *Fixed
 
 Known Limitations:
 As the tracker doesn't read the rom's memory, it is only able to track the following things:
@@ -23,3 +24,9 @@ It is unable to track the following:
 This is due to the fact that the tracker only interacts with the Archipelago server, and not with the Emulator's memory. 
 
 If PopTracker is updated to allow interaction with NES games, those limitations will be revisted. But for now, we get what we got.
+
+
+Introducing:  Maps!
+- This is in it's most basic form. These maps were mostly created and shared with the FFR community by DarkmoonEX.
+- Some of the maps are placeholders for the moment.
+- Hopefully with the next release maps with chest on them will have red/green tracker boxes on them.
