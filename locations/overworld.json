@@ -1,0 +1,847 @@
+[
+    {
+        "name": "Overworld",
+        "color": "#808080",
+        "children": [
+            {
+                "name": "Coneria Castle",
+				"access_rules": [],
+                "sections": [
+                    
+                    {
+                        "name": "King",
+                        "access_rules": [ "earlyKing", "garland" ],
+                        "item_count": 1,
+                        "hosted_item": "king"
+                    },
+                    {
+                        "name": "Sara",
+                        "access_rules": [ "garland" ],
+                        "item_count": 1,
+                        "hosted_item": "sara"
+                    },
+					{
+                        "name": "Treasury",
+                        "access_rules": [ "key" ],
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Treasury Major",
+                        "access_rules": [ "key" ],
+                        "item_count": 1,
+                        "hosted_item": "coneriaLocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1840,
+                        "y": 1740
+                    }
+                ]
+            },
+            {
+                "name": "Temple of Fiends",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Garland",
+                        "hosted_item": "garland"
+                    },
+                    {
+                        "name": "Unlocked",
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Locked",
+                        "access_rules": [ "key" ],
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1540,
+                        "y": 1300
+                    }
+                ]
+            },
+            {
+                "name": "Temple of Fiends Revisited",
+                "access_rules": [ "$canBreakOrb,lute,key" ],
+                "sections": [
+                    {
+                        "name": "Lute Plate Room",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Kary Floor",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Vanilla Masa",
+                        "item_count": 1
+                    },
+					{
+                        "name": "Chaos",
+                        "hosted_item": "chaos"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1540,
+                        "y": 1220
+                    }
+                ]
+            },
+            {
+                "name": "Dwarf Cave",
+                "access_rules": [
+                    "openProgression",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
+                "sections": [
+                    {
+                        "name": "Entrance",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Treasury",
+                        "access_rules": [ "key" ],
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Smithy McBeardSmith",
+                        "access_rules": [ "adamant" ],
+                        "item_count": 1,
+                        "hosted_item": "smith"
+                    },
+                    {
+                        "name": "Nerrick (Vanilla Canal)",
+                        "access_rules": [ "tnt" ],
+                        "item_count": 1,
+                        "hosted_item": "nerrick"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1220,
+                        "y": 1730
+                    }
+                ]
+            },
+            {
+                "name": "Northwest Castle",
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
+                "sections": [
+                    {
+                        "name": "Astos",
+                        "access_rules": [ "crown" ],
+                        "item_count": 1,
+                        "hosted_item": "astos"
+                    },
+                    {
+                        "name": "Treasury",
+                        "access_rules": [ "key" ],
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1230,
+                        "y": 2070
+                    }
+                ]
+            },
+            {
+                "name": "Matoya's Cave",
+                "access_rules": [
+                    "bridge",
+                    "ship",
+                    "airship",
+                    "extendedOpen,canoe",
+                    "openProgression,canoe",
+					"lefeinBridge"
+                ],
+                "sections": [
+                    {
+                        "name": "Matoya",
+                        "access_rules": [ "crystal" ],
+                        "item_count": 1,
+                        "hosted_item": "matoya"
+                    },
+                    {
+                        "name": "Chests",
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2040,
+                        "y": 1240
+                    }
+                ]
+            },
+            {
+                "name": "Elf Castle",
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
+                "sections": [
+                    {
+                        "name": "Elf Prince",
+                        "access_rules": [ "herb" ],
+                        "item_count": 1,
+                        "hosted_item": "elfprince"
+                    },
+                    {
+                        "name": "Treasury",
+                        "access_rules": [ "key" ],
+                        "item_count": 4
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1640,
+                        "y": 2500
+                    }
+                ]
+            },
+            {
+                "name": "Pravoka",
+                "access_rules": [
+                    "bridge",
+                    "ship",
+                    "airship",
+                    "extendedOpen,canoe",
+                    "openProgression,canoe",
+					"lefeinBridge"
+                ],
+                "sections": [
+                    {
+                        "name": "Bikke",
+                        "item_count": 1,
+                        "hosted_item": "bikke"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2530,
+                        "y": 1650
+                    }
+                ]
+            },
+            {
+                "name": "Marsh Cave",
+                "access_rules": [
+                    "openProgression,canoe",
+                    "ship",
+                    "airship",
+                    "extendedOpen"
+                 ],
+                "sections": [
+                    {
+                        "name": "Top (B1)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Bottom (B2)",
+                        "item_count": 5
+                    },
+					{
+                        "name": "Bottom (B2) - Incentive",
+                        "item_count": 1,
+                        "hosted_item": "marsh"
+                    },
+                    {
+                        "name": "Bottom (B2) - Locked",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Bottom (B2) - Locked Incentive",
+                        "access_rules": [ "key" ],
+                        "item_count": 1,
+                        "hosted_item": "marshLocked"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1230,
+                        "y": 2680
+                    }
+                ]
+            },
+            {
+                "name": "Sarda's Cave",
+                "access_rules": [
+                    "airship",
+                    "ruby,ship,canal",
+                    "melmondRiver,canoe,ruby"
+                 ],
+                "sections": [
+                    {
+                        "name": "Sarda",
+                        "access_rules": [ "earlySarda", "vampire" ],
+                        "item_count": 1,
+                        "hosted_item": "sarda"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 370,
+                        "y": 2150
+                    }
+                ]
+            },
+            {
+                "name": "Titan's Tunnel",
+                "access_rules": [
+                    "ruby,airship",
+                    "ruby,ship,canal",
+                    "melmondRiver,canoe,ruby"
+                 ],
+                "sections": [
+                    {
+                        "name": "Major",
+                        "item_count": 1,
+                        "hosted_item": "titansTrove"
+                    },
+                    {
+                        "name": "Chests",
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 400,
+                        "y": 1950
+                    }
+                ]
+            },
+            {
+                "name": "Earth Cave",
+                "access_rules": [
+                    "airship",
+                    "ship,canal",
+                    "melmondRiver,canoe"
+                 ],
+                "sections": [
+                    {
+                        "name": "Earth Orb",
+                        "access_rules": [ "rod" ],
+                        "hosted_item": "earthorb"
+                    },
+                    {
+                        "name": "Giant's Floor (B1)",
+                        "item_count": 5
+                    },
+                    {
+                        "name": "(B2)",
+                        "item_count": 6
+                    },
+                    {
+                        "name": "Vampire Floor (B3)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "Earth Cave Incentive (B3)",
+                        "item_count": 1,
+                        "hosted_item": "earth"
+                    },
+                    {
+                        "name": "Rod Locked Floor (B4)",
+                        "access_rules": [ "rod" ],
+                        "item_count": 8
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 790,
+                        "y": 2080
+                    }
+                ]
+            },
+            {
+                "name": "Melmond",
+                "access_rules": [
+                    "ship,canal,slab",
+                    "airship,slab",
+                    "melmondRiver,canoe,slab"
+                 ],
+                "sections": [
+                    {
+                        "name": "Dr Unne",
+                        "hosted_item": "slabTranslated"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 970,
+                        "y": 1750
+                    }
+                ]
+            },
+            {
+                "name": "Crescent Lake",
+                "access_rules": [
+                    "airship",
+                    "openProgression,canoe",
+                    "ship,canal",
+                    "extendedOpen,canoe",
+                    "ship,canoe"
+                ],
+                "sections": [
+                    {
+                        "name": "Sages",
+                        "access_rules": [ "earlySage", "earthorblit"],
+                        "item_count": 1,
+                        "hosted_item": "sages"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2630,
+                        "y": 2450
+                    }
+                ]
+            },
+            {
+                "name": "Ice Cave",
+                "access_rules": [
+                    "airship",
+                    "ship,canoe",
+                    "bridge,canoe",
+                    "openProgression,canoe",
+                    "extendedOpen,canoe"
+                ],
+                "sections": [
+                    {
+                        "name": "Incentive Floor (B2) - Major",
+                        "item_count": 1,
+                        "hosted_item": "iceCave"
+                    },
+                    {
+                        "name": "Incentive Floor (B2)",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Bottom Floor (B3)",
+                        "item_count": 8
+                    },
+                    {
+                        "name": "Exit Floor (B1)",
+                        "item_count": 5
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2380,
+                        "y": 2050
+                    }
+                ]
+            },
+            {
+                "name": "Volcano",
+                "access_rules": [
+                    "airship",
+                    "openProgression,canoe",
+                    "extendedOpen,canoe",
+                    "ship,canoe"
+                ],
+                "sections": [
+                    {
+                        "name": "Fire Orb",
+                        "hosted_item": "fireorb"
+                    },
+                    {
+                        "name": "Armory Floor (B2)",
+                        "item_count": 18
+                    },
+                    {
+                        "name": "Agama Floor (B4)",
+                        "item_count": 214
+                    },
+                    {
+                        "name": "Volcano Incentive (B5)",
+                        "item_count": 1,
+                        "hosted_item": "volcano"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2280,
+                        "y": 2280
+                    }
+                ]
+            },
+            {
+                "name": "Ryukahn Desert",
+                "access_rules": [ "canoe,openProgression", "ship,canoe", "canoe,extendedOpen", "luffyDock,ship,canal"  ],
+                "sections": [
+                    {
+                        "name": "Floater Turn In",
+                        "access_rules": [ "inactiveFloater" ],
+                        "hosted_item": "airship"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2650,
+                        "y": 2700
+                    }
+                ]
+            },
+            {
+                "name": "Bahamut's Cave",
+                "access_rules": [
+                    "airship",
+                    "cardiaDock,ship,canal"
+                 ],
+                "sections": [
+                    {
+                        "name": "Bahamut",
+                        "access_rules": [ "tail" ],
+                        "hosted_item": "bahamut"
+                    },
+					{
+						"name" : "Bahamut's Hoard (Cardia Chests)",
+						"visibility_rules" : [ "BahamutHoard" ],
+						"item_count": 12
+					},
+					{
+						"name" : "Bahamut's Hoard (Cardia Incentive)",
+						"visibility_rules" : [ "BahamutHoard" ],
+                        "item_count": 1,
+						"hosted_item" : "cardiaIncentive"
+					}
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1200,
+                        "y": 480
+                    }
+                ]
+            },
+            {
+                "name": "Cardia Grassy Island",
+				"access_rules": [ "airship" ],
+                "sections": [
+                    {
+                        "name": "Chests",
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 960,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Cardia Swamp Island",
+				"access_rules": [ "airship" ],
+                "sections": [
+                    {
+                        "name": "Chests",
+                        "item_count": 3
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1120,
+                        "y": 550
+                    }
+                ]
+            },
+            {
+                "name": "Cardia Forest Island",
+                "access_rules": [ "airship" ],
+                "sections": [
+					{
+                        "name": "Incentive Major",
+                        "item_count": 1,
+                        "hosted_item": "cardiaIncentive"
+                    },
+                    {
+                        "name": "Chests",
+                        "item_count": 6
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1400,
+                        "y": 650
+                    }
+                ]
+            },
+            {
+                "name": "Temple of Ordeals",
+                "access_rules": [
+                    "airship,canoe",
+                    "ship,canal,canoe",
+                    "lefeinBridge,hwyOrdeals,bridge,canoe"
+                ],
+                "sections": [
+                    {
+                        "name": "Chests",
+                        "item_count": 8
+                    },
+					{
+                        "name": "Incentive",
+                        "access_rules": [ "earlyOrdeals", "crown" ],
+                        "item_count": 1,
+                        "hosted_item": "ordeals"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1570,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Lefein",
+                "access_rules": [
+                    "airship",
+                    "lefeinRiver,canoe,ship,canal",
+                    "lefeinBridge,bridge",
+                    "hwyOrdeals,ship,canal,canoe",
+                    "northernDocks,ship,canal,hwyOrdeals"
+                ],
+                "sections": [
+                    {
+                        "name": "Incentive",
+                        "access_rules": [ "slabTranslated", "slabDone" ],
+                        "item_count": 1,
+                        "hosted_item": "lefein"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2850,
+                        "y": 1040
+                    }
+                ]
+            },
+            {
+                "name": "Gaia",
+                "access_rules": [
+                    "airship",
+                    "gaiaMountain,ship,canoe,lefeinRiver,canal",
+                    "gaiaMountain,northernDocks,ship,canal",
+                    "gaiaMountain,hwyOrdeals,ship,canal,canoe",
+                    "lefeinBridge,gaiaMountain,bridge"
+                 ],
+                "sections": [
+                    {
+                        "name": "Fairy",
+                        "access_rules": [ "bottle" ],
+                        "item_count": 1,
+                        "hosted_item": "fairy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2650,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Mirage Tower",
+                "access_rules": [
+                    "airship,chime",
+                    "northernDocks,chime,ship,canal",
+                    "lefeinBridge,bridge,hwyOrdeals,chime",
+                    "hwyOrdeals,ship,canoe,canal,chime"
+                ],
+                "sections": [
+                    {
+                        "name": "(1F)",
+                        "item_count": 8
+                    },
+                    {
+                        "name": "(2F)",
+                        "item_count": 10
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2300,
+                        "y": 660
+                    }
+                ]
+            },
+            {
+                "name": "Sky Fortess",
+                "access_rules": [
+                    "airship,chime,cube",
+                    "northernDocks,chime,ship,canal,cube",
+                    "lefeinBridge,bridge,hwyOrdeals,chime,cube",
+                    "hwyOrdeals,ship,canal,canoe,chime,cube",
+                 ],
+                "sections": [
+                    {
+                        "name": "Air Orb",
+                        "hosted_item": "airorb"
+                    },
+                    {
+                        "name": "Sky Plus (1F)",
+                        "item_count": 10
+                    },
+                    {
+                        "name": "Spider Floor (2F)",
+                        "item_count": 9
+                    },
+                    {
+                        "name": "Sky Incentive (2F)",
+                        "item_count": 1,
+                        "hosted_item": "sky"
+                    },
+                    {
+                        "name": "Sky Provides (3F)",
+                        "item_count": 14
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2300,
+                        "y": 580
+                    }
+                ]
+            },
+            {
+                "name": "Waterfall",
+                "access_rules": [
+                    "airship,canoe",
+                    "northernDocks,ship,canal,canoe"
+                ],
+                "sections": [
+                    {
+                        "name": "Robot",
+                        "item_count": 1,
+                        "hosted_item": "robot"
+                    },
+                    {
+                        "name": "Chests",
+                        "item_count": 6
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 700,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Sea Shrine",
+                "access_rules": [
+                    "airship,canoe,oxyale",
+                    "northernDocks,ship,canal,oxyale",
+					"northernDocks,airBoat,airship,ship,oxyale"
+                ],
+                "sections": [
+                    {
+                        "name": "Water Orb",
+                        "hosted_item": "waterorb"
+                    },
+                    {
+                        "name": "Split Floor (B3)",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "TFC Floor (B2)",
+                        "item_count": 4
+                    },
+                    {
+                        "name": "TFC (B2)",
+                        "access_rules": [ "key" ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Mermaids (B1)",
+                        "item_count": 12
+                    },
+                    {
+                        "name": "Sea Incentive (B1)",
+                        "item_count": 1,
+                        "hosted_item": "sea"
+                    },
+                    {
+                        "name": "Greed Floor (B3)",
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Sharknado Floor (B4)",
+                        "item_count": 10
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 740,
+                        "y": 660
+                    }
+                ]
+            },
+            {
+                "name": "Caravan or Town Shop",
+                "access_rules": [],
+                "sections": [
+                    {
+                        "name": "Shop Item",
+                        "hosted_item": "shopItem"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 310,
+                        "y": 460
+                    }
+                ]
+            }
+        ]
+    }
+]
+
+
+

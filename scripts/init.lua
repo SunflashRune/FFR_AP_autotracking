@@ -6,41 +6,61 @@ print("Starting up scipts")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/hosted_items.json")
 Tracker:AddItems("items/flags.json")
+Tracker:AddItems("items/shards.json")
 
-if Tracker.ActiveVariantUID == "shardHunt" or Tracker.ActiveVariantUID == "shardHuntNoMap" then
-  Tracker:AddItems("shardHunt/shards.json")
+if Tracker.ActiveVariantUID == "7NOverworld" or Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
+  Tracker:AddMaps("maps/NOverworldMaps.json")
+else
+  Tracker:AddMaps("maps/maps.json")
 end
 
-Tracker:AddMaps("maps/maps.json")
-
 ScriptHost:LoadScript("scripts/logic.lua")
-Tracker:AddLocations("locations/locations.json")
-Tracker:AddLocations("locations/incentives.json")
+
+if Tracker.ActiveVariantUID == "7NOverworld" or Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
+    Tracker:AddLocations("locations/NOverworld/locations.json")
+    Tracker:AddLocations("locations/NOverworld/incentives.json")
+else
+    ScriptHost:LoadScript("scripts/loadLocations.lua")
+end
 
 Tracker:AddLayouts("layouts/shared.json")
-if Tracker.ActiveVariantUID == "shardHunt" then
-  Tracker:AddLayouts("shardHunt/tracker.json")
-  Tracker:AddLayouts("shardHunt/broadcast.json")
+if Tracker.ActiveVariantUID == "6shardHunt" then
+  Tracker:AddLayouts("layouts/shardHunt/tracker.json")
+  Tracker:AddLayouts("layouts/shardHunt/broadcast.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "shardHuntNoMap" then
-  Tracker:AddLayouts("shardHuntNoMap/tracker.json")
-  Tracker:AddLayouts("shardHunt/broadcast.json")
+elseif Tracker.ActiveVariantUID == "2shardHuntNoMap" then
+  Tracker:AddLayouts("layouts/shardHuntNoMap/tracker.json")
+  Tracker:AddLayouts("layouts/shardHuntNoMap/broadcastNoMap.json")
   local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
   shardsRequired.CurrentStage = 8
-elseif Tracker.ActiveVariantUID == "standardNoMap" then
-  Tracker:AddLayouts("standardNoMap/tracker.json")
-  Tracker:AddLayouts("layouts/standard_broadcast.json")
+elseif Tracker.ActiveVariantUID == "8shardHuntNOverworld" then
+  Tracker:AddLayouts("layouts/NOverworld/shardsTracker.json")
+  Tracker:AddLayouts("layouts/NOverworld/broadcastShards.json")
+  local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
+  shardsRequired.CurrentStage = 8
+elseif Tracker.ActiveVariantUID == "4shardHuntNOverworldNoMap" then
+  Tracker:AddLayouts("layouts/NOverworld/shardsTrackerNoMap.json")
+  Tracker:AddLayouts("layouts/NOverworld/broadcastShardsNoMap.json")
+  local shardsRequired = Tracker:FindObjectForCode("shardsRequired")
+  shardsRequired.CurrentStage = 8
+elseif Tracker.ActiveVariantUID == "7NOverworld" then
+  Tracker:AddLayouts("layouts/NOverworld/tracker.json")
+  Tracker:AddLayouts("layouts/NOverworld/broadcast.json")
+elseif Tracker.ActiveVariantUID == "3NOverworldNoMap" then
+  Tracker:AddLayouts("layouts/NOverworld/trackerNoMap.json")
+  Tracker:AddLayouts("layouts/NOverworld/broadcastNoMap.json")
+elseif Tracker.ActiveVariantUID == "1standardNoMap" then
+  Tracker:AddLayouts("layouts/standardNoMap/tracker.json")
+  Tracker:AddLayouts("layouts/standardNoMap/broadcastNoMap.json")
 else
-  Tracker:AddLayouts("layouts/tracker.json")
-  Tracker:AddLayouts("layouts/standard_broadcast.json")
+  Tracker:AddLayouts("layouts/standard/tracker.json")
+  Tracker:AddLayouts("layouts/standard/standard_broadcast.json")
 end
 
 -- Default Flags
-local northernDocksFlag = Tracker:FindObjectForCode("northernDocks")
-northernDocksFlag.Active = true
 local progressionFlag = Tracker:FindObjectForCode("progressionFlag")
-progressionFlag.CurrentStage = 2
+progressionFlag.CurrentStage = 1
 local npcsIncentive = Tracker:FindObjectForCode("npcsAreIncentive")
 npcsIncentive.Active = true
 local fetchQuestsIncentive = Tracker:FindObjectForCode("fetchQuestsAreIncentive")
@@ -59,6 +79,14 @@ local skyIncentive = Tracker:FindObjectForCode("skyIsIncentive")
 skyIncentive.Active = true
 local coneriaLockedIncentive = Tracker:FindObjectForCode("coneriaLockedIsIncentive")
 coneriaLockedIncentive.Active = true
+local earlyKing = Tracker:FindObjectForCode("earlyKing")
+earlyKing.Active = true
+local earlySarda = Tracker:FindObjectForCode("earlySarda")
+earlySarda.Active = true
+local earlySage = Tracker:FindObjectForCode("earlySage")
+earlySage.Active = true
+local earlyOrdeals = Tracker:FindObjectForCode("earlyOrdeals")
+earlyOrdeals.Active = true
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion>="0.18.0" then

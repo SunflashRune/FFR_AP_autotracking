@@ -1,0 +1,546 @@
+[
+	{
+		"chest_unopened_img": "images/misc/chestUnopened.png",
+		"chest_opened_img": "images/misc/chestOpened.png",
+		"name": "Sea Shrine",
+		"access_rules": [
+            "airship,canoe,oxyale",
+            "northernDocks,ship,canal,oxyale",
+			"northernDocks,airBoat,airship,ship,oxyale"
+		],
+		"children": [
+			{
+				"name": "Split Floor (B3)",
+				"sections": [
+					{
+						"name": "Kraken Side",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Split Floor (B3)",
+				"sections": [
+					{
+						"name": "Mermaid Side",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Greed Floor (B3)",
+				"sections": [
+					{
+						"name": "Chest 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Greed Floor (B3)",
+				"sections": [
+					{
+						"name": "Chest 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB3",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Dengbait 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Dengbait 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Side Corner 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Side Corner 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Side Corner 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Exit",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Greed Room 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Greed Room 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Greed Room 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Sharknado Floor (B4)",
+				"sections": [
+					{
+						"name": "Greed Room 4",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB4",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "TFC Floor (B2)",
+				"sections": [
+					{
+						"name": "TFC",
+						"access_rules": [
+							"key"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "TFC Floor (B2)",
+				"sections": [
+					{
+						"name": "TFC North",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "TFC Floor (B2)",
+				"sections": [
+					{
+						"name": "Side Corner",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "TFC Floor (B2)",
+				"sections": [
+					{
+						"name": "First Greed",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "TFC Floor (B2)",
+				"sections": [
+					{
+						"name": "Second Greed",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB2",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Passby",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Bubbles 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Bubbles 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Incentive 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Incentive 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Incentive Major",
+						"hosted_item": "sea",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Entrance 1",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Entrance 2",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Entrance 3",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Four-Corner First",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Four-Corner Second",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Four-Corner Third",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Mermaids (B1)",
+				"sections": [
+					{
+						"name": "Four-Corner Fourth",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB1",
+						"x": 1,
+						"y": 1
+					}
+				]
+			},
+			{
+				"name": "Kraken's Floor (B5)",
+				"sections": [
+					{
+						"name": "Water Orb",
+						"hosted_item": "waterorb",
+					}
+				],
+				"map_locations": [
+					{
+						"map": "seaB5",
+						"x": 1,
+						"y": 1
+					}
+				]
+			}
+		]
+	}
+]
