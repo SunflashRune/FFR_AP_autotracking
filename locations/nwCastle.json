@@ -24,8 +24,8 @@
 				"map_locations": [
 					{
 						"map": "nw_castle",
-						"x": 1,
-						"y": 1
+						"x": 143,
+						"y": 240
 					}
 				]
 			},
@@ -43,8 +43,8 @@
 				"map_locations": [
 					{
 						"map": "nw_castle",
-						"x": 1,
-						"y": 1
+						"x": 175,
+						"y": 256
 					}
 				]
 			},
@@ -62,8 +62,8 @@
 				"map_locations": [
 					{
 						"map": "nw_castle",
-						"x": 1,
-						"y": 1
+						"x": 207,
+						"y": 240
 					}
 				]
 			},
@@ -75,14 +75,14 @@
 						"access_rules": [
 							"crown"
 						],
-						"hosted_item": "astos",
+						"hosted_item": "astos"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "nw_castle",
-						"x": 1,
-						"y": 1
+						"x": 272,
+						"y": 125
 					}
 				]
 			}

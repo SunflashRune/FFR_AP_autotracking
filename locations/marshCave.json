@@ -21,8 +21,8 @@
 				"map_locations": [
 					{
 						"map": "marshB2",
-						"x": 1,
-						"y": 1
+						"x": 439,
+						"y": 98
 					}
 				]
 			},
@@ -37,8 +37,8 @@
 				"map_locations": [
 					{
 						"map": "marshB2",
-						"x": 1,
-						"y": 1
+						"x": 215,
+						"y": 98
 					}
 				]
 			},
@@ -53,8 +53,8 @@
 				"map_locations": [
 					{
 						"map": "marshB2",
-						"x": 1,
-						"y": 1
+						"x": 167,
+						"y": 354
 					}
 				]
 			},
@@ -69,8 +69,8 @@
 				"map_locations": [
 					{
 						"map": "marshB2",
-						"x": 1,
-						"y": 1
+						"x": 199,
+						"y": 354
 					}
 				]
 			},
@@ -85,8 +85,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 834,
+						"y": 112
 					}
 				]
 			},
@@ -101,8 +101,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 162,
+						"y": 384
 					}
 				]
 			},
@@ -117,8 +117,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 370,
+						"y": 352
 					}
 				]
 			},
@@ -133,8 +133,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 402,
+						"y": 384
 					}
 				]
 			},
@@ -149,8 +149,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 370,
+						"y": 608
 					}
 				]
 			},
@@ -165,8 +165,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 610,
+						"y": 624
 					}
 				]
 			},
@@ -184,8 +184,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 194,
+						"y": 848
 					}
 				]
 			},
@@ -203,8 +203,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 434,
+						"y": 832
 					}
 				]
 			},
@@ -223,8 +223,8 @@
 				"map_locations": [
 					{
 						"map": "marshB3",
-						"x": 1,
-						"y": 1
+						"x": 834,
+						"y": 832
 					}
 				]
 			}

@@ -21,8 +21,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 254,
+						"y": 179
 					}
 				]
 			},
@@ -40,8 +40,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 271,
+						"y": 179
 					}
 				]
 			},
@@ -59,8 +59,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 335,
+						"y": 179
 					}
 				]
 			},
@@ -78,8 +78,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 351,
+						"y": 179
 					}
 				]
 			},
@@ -97,8 +97,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 367,
+						"y": 179
 					}
 				]
 			},
@@ -117,8 +117,8 @@
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 287,
+						"y": 179
 					}
 				]
 			},
@@ -130,14 +130,14 @@
 						"access_rules": [
 							"garland"
 						],
-						"hosted_item": "sara",
+						"hosted_item": "sara"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 830,
+						"y": 95
 					}
 				]
 			},
@@ -150,14 +150,14 @@
 							"earlyKing",
 							"garland"
 						],
-						"hosted_item": "king",
+						"hosted_item": "king"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "con_castle",
-						"x": 1,
-						"y": 1
+						"x": 847,
+						"y": 77
 					}
 				]
 			}

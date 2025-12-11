@@ -482,7 +482,7 @@
                     },
                     {
                         "name": "Agama Floor (B4)",
-                        "item_count": 214
+                        "item_count": 14
                     },
                     {
                         "name": "Volcano Incentive (B5)",
@@ -713,7 +713,7 @@
                     "airship,chime,cube",
                     "northernDocks,chime,ship,canal,cube",
                     "lefeinBridge,bridge,hwyOrdeals,chime,cube",
-                    "hwyOrdeals,ship,canal,canoe,chime,cube",
+                    "hwyOrdeals,ship,canal,canoe,chime,cube"
                  ],
                 "sections": [
                     {

@@ -23,8 +23,8 @@
 				"map_locations": [
 					{
 						"map": "matoya",
-						"x": 1,
-						"y": 1
+						"x": 23,
+						"y": 71
 					}
 				]
 			},
@@ -39,8 +39,8 @@
 				"map_locations": [
 					{
 						"map": "matoya",
-						"x": 1,
-						"y": 1
+						"x": 23,
+						"y": 87
 					}
 				]
 			},
@@ -55,8 +55,8 @@
 				"map_locations": [
 					{
 						"map": "matoya",
-						"x": 1,
-						"y": 1
+						"x": 23,
+						"y": 119
 					}
 				]
 			},
@@ -68,14 +68,14 @@
 						"access_rules": [
 							"crystal"
 						],
-						"hosted_item": "matoya",
+						"hosted_item": "matoya"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "matoya",
-						"x": 1,
-						"y": 1
+						"x": 136,
+						"y": 23
 					}
 				]
 			}

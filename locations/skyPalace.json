@@ -7,7 +7,7 @@
             "airship,chime,cube",
             "northernDocks,chime,ship,canal,cube",
             "lefeinBridge,bridge,hwyOrdeals,chime,cube",
-            "hwyOrdeals,ship,canal,canoe,chime,cube",
+            "hwyOrdeals,ship,canal,canoe,chime,cube"
 		],
 		"children": [
 			{
@@ -21,8 +21,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 312,
+						"y": 615
 					}
 				]
 			},
@@ -37,8 +37,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 536,
+						"y": 343
 					}
 				]
 			},
@@ -53,8 +53,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 552,
+						"y": 327
 					}
 				]
 			},
@@ -69,8 +69,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 568,
+						"y": 311
 					}
 				]
 			},
@@ -85,8 +85,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 584,
+						"y": 311
 					}
 				]
 			},
@@ -101,8 +101,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 600,
+						"y": 359
 					}
 				]
 			},
@@ -117,8 +117,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 40,
+						"y": 311
 					}
 				]
 			},
@@ -133,8 +133,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 56,
+						"y": 295
 					}
 				]
 			},
@@ -149,8 +149,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 72,
+						"y": 311
 					}
 				]
 			},
@@ -165,8 +165,8 @@
 				"map_locations": [
 					{
 						"map": "sky1F",
-						"x": 1,
-						"y": 1
+						"x": 88,
+						"y": 343
 					}
 				]
 			},
@@ -181,8 +181,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 136,
+						"y": 151
 					}
 				]
 			},
@@ -197,8 +197,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 184,
+						"y": 151
 					}
 				]
 			},
@@ -213,8 +213,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 24,
+						"y": 343
 					}
 				]
 			},
@@ -229,8 +229,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 72,
+						"y": 311
 					}
 				]
 			},
@@ -245,8 +245,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 440,
+						"y": 151
 					}
 				]
 			},
@@ -261,8 +261,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 568,
+						"y": 295
 					}
 				]
 			},
@@ -277,8 +277,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 584,
+						"y": 327
 					}
 				]
 			},
@@ -293,8 +293,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 440,
+						"y": 535
 					}
 				]
 			},
@@ -309,8 +309,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 456,
+						"y": 535
 					}
 				]
 			},
@@ -326,8 +326,8 @@
 				"map_locations": [
 					{
 						"map": "sky2F",
-						"x": 1,
-						"y": 1
+						"x": 168,
+						"y": 535
 					}
 				]
 			},
@@ -342,8 +342,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 632,
+						"y": 279
 					}
 				]
 			},
@@ -358,8 +358,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 632,
+						"y": 295
 					}
 				]
 			},
@@ -374,8 +374,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 632,
+						"y": 311
 					}
 				]
 			},
@@ -390,8 +390,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 664,
+						"y": 279
 					}
 				]
 			},
@@ -406,8 +406,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 664,
+						"y": 295
 					}
 				]
 			},
@@ -422,8 +422,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 664,
+						"y": 311
 					}
 				]
 			},
@@ -438,8 +438,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 280,
+						"y": 87
 					}
 				]
 			},
@@ -454,8 +454,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 280,
+						"y": 103
 					}
 				]
 			},
@@ -470,8 +470,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 312,
+						"y": 87
 					}
 				]
 			},
@@ -486,8 +486,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 312,
+						"y": 103
 					}
 				]
 			},
@@ -502,8 +502,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 72,
+						"y": 327
 					}
 				]
 			},
@@ -518,8 +518,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 88,
+						"y": 327
 					}
 				]
 			},
@@ -534,8 +534,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 104,
+						"y": 327
 					}
 				]
 			},
@@ -550,8 +550,8 @@
 				"map_locations": [
 					{
 						"map": "sky3F",
-						"x": 1,
-						"y": 1
+						"x": 120,
+						"y": 327
 					}
 				]
 			},
@@ -560,14 +560,14 @@
 				"sections": [
 					{
 						"name": "Air Orb",
-						"hosted_item": "airorb",
+						"hosted_item": "airorb"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "sky5F",
-						"x": 1,
-						"y": 1
+						"x": 128,
+						"y": 91
 					}
 				]
 			}
